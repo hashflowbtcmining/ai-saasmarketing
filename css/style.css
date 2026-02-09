@@ -1,0 +1,44 @@
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Arial,sans-serif; background:#0d1117; color:#fff; line-height:1.6; }
+
+/* Container */
+.container { width:90%; max-width:1200px; margin:0 auto; }
+
+/* Header */
+header { text-align:center; padding:60px 20px; }
+header h1 { font-size:2.8rem; margin-bottom:15px; color:#58a6ff; }
+header p { font-size:1.2rem; color:#c9d1d9; margin-bottom:30px; }
+header .btn { background:#4cc9f0; color:#0d1117; padding:15px 30px; border:none; border-radius:8px; font-weight:bold; text-decoration:none; cursor:pointer; }
+
+/* Sections */
+section { padding:50px 0; }
+section h2 { text-align:center; font-size:2rem; color:#58a6ff; margin-bottom:30px; }
+
+/* Reviews */
+.review { background:#161b22; padding:20px; border-radius:10px; margin:15px auto; max-width:800px; text-align:center; }
+
+/* Cards (Dashboard / Licenses) */
+.card, .license-card { background:#161b22; padding:20px; border-radius:10px; margin:20px auto; max-width:800px; text-align:center; }
+.licenses { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+.license-card { flex:1 1 250px; max-width:300px; transition:transform 0.3s; }
+.license-card:hover { transform:translateY(-5px); }
+
+/* Buttons */
+button, .btn { background:#4cc9f0; color:#0d1117; border:none; padding:12px 25px; border-radius:8px; font-weight:bold; cursor:pointer; }
+
+/* Inputs */
+input { padding:12px 15px; margin:10px 0; border-radius:8px; border:1px solid #4cc9f0; width:100%; max-width:350px; display:block; margin-left:auto; margin-right:auto; background:#0d1117; color:#fff; }
+
+/* Footer */
+footer { text-align:center; padding:40px 20px; background:#161b22; color:#c9d1d9; margin-top:50px; }
+
+/* Images */
+img { max-width:100%; height:auto; display:block; margin:0 auto; }
+
+/* Responsive */
+@media (max-width:768px) {
+  header h1 { font-size:2rem; }
+  .license-card { flex:1 1 100%; max-width:90%; }
+  .card { width:90%; }
+  }
